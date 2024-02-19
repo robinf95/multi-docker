@@ -1,0 +1,15 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t rofr95/react-test -f ./client/Dockerfile.dev ./client
+script:
+  - docker run -e CI=true rofr95/react-test npm test
+
+after_success:
+  - docker build -t rofr95/multi-client ./client
+  - docker build -t rofr95/multi-nginx ./nginx
+  - docker build -t rofr95/multi-server ./server
+  - docker build -t rofr95/multi-worker ./worker
+    # Log in to the docker CLI
