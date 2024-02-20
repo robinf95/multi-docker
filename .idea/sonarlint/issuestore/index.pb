@@ -25,3 +25,12 @@ B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
 F
 old.Dockerrun.aws.json,6\3\63d312d6e0a4c028842a131e8e2f2049e8a86535
+C
+server/package.json,5\4\54e8f14248f674b305c14bde70fadbe1da1edb31
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
